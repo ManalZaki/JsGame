@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farm</title>
+    <link rel="stylesheet" href="javaScript/alertify.core.css" />
+    <link rel="stylesheet" href="javaScript/alertify.default.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    
+</head>
+<body style="background-image: url('images/5.jpg')">
+       
+     <audio controls autoplay loop id="player">
+        <source src="farm bg sound.mp3" type="audio/mp3">
+    </audio> 
+
+    <div>
+   <button onclick = "document.getElementById('player').play()" class="audiobtn">Play</button>
+   <button onclick = "document.getElementById('player').pause()" class="audiobtn">Pause</button>
+   <button onclick = "document.getElementById('player').volume += 0.2" class="audiobtn">Vol+</button>
+   <button onclick = "document.getElementById('player').volume -= 0.2" class="audiobtn">Vol-</button>
+   <h1 id="username"></h1>
+</div>
+  
+    <div class="Game">
+
+        <input class="startbtn" type="button" value="Start Now" />
+       
+        <p class="score"> </p>
+        <input class="start" type="button" value="Start" />
+        <p class="time">Time : <span class="timeValue">60 Second</span></p> <br/>
+
+        <div id="basketcontainer" >
+            <img class="basket" id="basketId" src="images/basket.png" >
+        </div>
+
+
+
+</div>
+        <div id =".checkin">
+            <img src="images/bird1.gif" id ="chik1" class="chik"/>
+            <img src="images/bird2.gif" id ="chik2" class="chik" />
+            <img src="images/bird3.gif" id ="chik3" class="chik"/>
+        </div>
+
+       
+
+
+
+            
+    
+
+   
+
+<script src="javaScript/jquery-3.2.1.js"></script>
+<script src="javaScript/alertify.min.js"></script>
+<script src="javaScript/javascript.js"></script>
+</body>
+
+
+
+
+</html>
